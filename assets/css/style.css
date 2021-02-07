@@ -1,11 +1,15 @@
 @font-face {
   font-family: Cyber;
-  src: url("https://assets.codepen.io/605876/Blender-Pro-Bold.otf");
+  src: url("..//fonts//Blender-Pro-Bold.otf");
   font-display: swap;
 }
 
 
-@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
+@font-face {
+  font-family: Source Code Pro;
+  src: url("..//fonts//SourceCodePro-Regular.ttf");
+  font-display: swap;
+}
 
 
 html,
@@ -18,11 +22,11 @@ body {
   background-color: #000000;
   font-family: 'Source Code Pro', serif;
   font-size: 16px;
-  display: flex;
+  /*display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  min-height: 100vh;
+  min-height: 100vh;*/
 }
 
 canvas {
