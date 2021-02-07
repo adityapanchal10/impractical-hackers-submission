@@ -1,37 +1,37 @@
 [
   {
     "Number": 1,
-    "title": "Challenge 1",
+    "title": "Hackers' Choice",
     "link": "#"
   },
   {
     "Number": 2,
-    "title": "Challenge 2",
+    "title": "Add a made up language to your resume",
     "link": "#"
   },
   {
     "Number": 3,
-    "title": "Challenge 3",
+    "title": "Send a PR to linux repo with everything commented out",
     "link": "#"
   },
   {
     "Number": 4,
-    "title": "Challenge 4",
+    "title": "post \'i know complete js\' on linkedin ",
     "link": "#"
   },
   {
     "Number": 5,
-    "title": "Challenge 4",
+    "title": "make 1 open source contribution with absurd code to the repo of your choice",
     "link": "#"
   },
   {
     "Number": 6,
-    "title": "Challenge 6",
+    "title": "You get to be listed as a contributor in a friends project",
     "link": "#"
   },
   {
     "Number": 7,
-    "title": "Challenge 7",
+    "title": "Your friend decides something to add to your github",
     "link": "#"
   }
 ]
