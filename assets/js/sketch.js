@@ -49,7 +49,8 @@ function setup() {
   current = random(TWO_PI);
   theta = 0
   displayDiv = select("#display").hide();
-  spinButton = createButton("Spin The Wheel").mousePressed(() => {
+  spinButton = select("#spin")
+  spinButton.mousePressed(() => {
     if (!spinning) {
       let force = random(0.4, 0.5);
       
@@ -59,22 +60,28 @@ function setup() {
       theta += force;
     }
     spinning = true;
-  }).addClass("button").position(25, windowHeight - 100);
+  }).addClass("button").position(75, windowHeight - 230);
   
-  removeButton = createButton("View Selected").mousePressed(() => {
+  removeButton = select("#removebtn")
+  removeButton.mousePressed(() => {
     //total--;
 
     let selected = selectedData[selectedIndex];
     sectionSize = (TWO_PI / total);
     loadColors();
     showSelected(selected);
-  }).addClass("button").position(25, windowHeight - 70);
+  }).addClass("button").position(75, windowHeight - 180);
   
-  resetButton = createButton("Reset").mousePressed(getNumbers).addClass("button").position(25, windowHeight - 40);
+  resetButton = select("#reset")
+  resetButton.mousePressed(getNumbers).addClass("button").position(75, windowHeight - 100);
   
   
   loadColors();
   backC = color(51);
+
+  //spinButton.addClass("cybr-btn");
+  //removeButton.addClass("cybr-btn");
+  //resetButton.addClass("cybr-btn");
 }
 
 function windowResized()
