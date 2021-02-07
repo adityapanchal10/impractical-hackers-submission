@@ -59,7 +59,7 @@ function setup() {
       theta += force;
     }
     spinning = true;
-  }).addClass("button").position(25, windowHeight - 40);
+  }).addClass("button").position(25, windowHeight - 100);
   
   removeButton = createButton("View Selected").mousePressed(() => {
     //total--;
@@ -70,7 +70,7 @@ function setup() {
     showSelected(selected);
   }).addClass("button").position(25, windowHeight - 70);
   
-  resetButton = createButton("Reset").mousePressed(getNumbers).addClass("button").position(25, windowHeight-100);
+  resetButton = createButton("Reset").mousePressed(getNumbers).addClass("button").position(25, windowHeight - 40);
   
   
   loadColors();
