@@ -21,7 +21,7 @@ const mouse = () => createVector(mouseX - width / 2, mouseY - height / 2);
 const pmouse = () => createVector(pmouseX - width / 2, pmouseY - height / 2);
 
 function preload() {
-  data = loadJSON("../superdata-3.json", (j) => data=j);
+  data = loadJSON("assets\\superdata-3.json", (j) => data=j);
   loadColors();
 }
 
